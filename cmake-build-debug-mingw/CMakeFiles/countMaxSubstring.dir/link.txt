@@ -1,0 +1,3 @@
+"D:\jetbrain\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\countMaxSubstring.dir/objects.a
+D:\mingw\MinGW\bin\ar.exe cr CMakeFiles\countMaxSubstring.dir/objects.a @CMakeFiles\countMaxSubstring.dir\objects1.rsp
+D:\mingw\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\countMaxSubstring.dir/objects.a -Wl,--no-whole-archive -o countMaxSubstring.exe -Wl,--out-implib,libcountMaxSubstring.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\countMaxSubstring.dir\linklibs.rsp

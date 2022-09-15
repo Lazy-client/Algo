@@ -1,0 +1,3 @@
+"D:\jetbrain\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\saddle.main.dir/objects.a
+D:\mingw\MinGW\bin\ar.exe cr CMakeFiles\saddle.main.dir/objects.a @CMakeFiles\saddle.main.dir\objects1.rsp
+D:\mingw\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\saddle.main.dir/objects.a -Wl,--no-whole-archive -o saddle.main.exe -Wl,--out-implib,libsaddle.main.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\saddle.main.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+"D:\jetbrain\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\layervisit.dir/objects.a
+D:\mingw\MinGW\bin\ar.exe cr CMakeFiles\layervisit.dir/objects.a @CMakeFiles\layervisit.dir\objects1.rsp
+D:\mingw\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\layervisit.dir/objects.a -Wl,--no-whole-archive -o layervisit.exe -Wl,--out-implib,liblayervisit.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\layervisit.dir\linklibs.rsp

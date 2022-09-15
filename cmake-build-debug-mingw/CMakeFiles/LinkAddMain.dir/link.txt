@@ -1,0 +1,3 @@
+"D:\jetbrain\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\LinkAddMain.dir/objects.a
+D:\mingw\MinGW\bin\ar.exe cr CMakeFiles\LinkAddMain.dir/objects.a @CMakeFiles\LinkAddMain.dir\objects1.rsp
+D:\mingw\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\LinkAddMain.dir/objects.a -Wl,--no-whole-archive -o LinkAddMain.exe -Wl,--out-implib,libLinkAddMain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LinkAddMain.dir\linklibs.rsp
