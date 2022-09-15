@@ -29,30 +29,17 @@ add_executable(pathcount pathcount/pathcount.cpp)
 add_executable(generalizedTable generalizedTable/generalizedTable.cpp)
 add_executable(saddle.main Saddlepoint/saddle.main.cpp)
 add_executable(sanddlepoint Saddlepoint/sanddlepoint.cpp)
-add_executable(kmp string/kmp.cpp)
 add_executable(8queen 8queen/8queen.cpp)
 
-add_executable(make make.cpp)
-add_executable(replace replace.cpp)
-
-add_executable(recersive_1 RoundRobin.cpp)
-add_executable(RoundRobin RoundRobin.cpp)
-add_executable(CollectionDivision CollectionDivision.cpp)
-add_executable(famachengzhong famachengzhong.cpp)
 
 
-add_executable(bestCombine bestCombine.cpp)
-add_executable(main1 main1.cpp)
-add_executable(bestn bestn.cpp)
+
 add_executable(beishu lanqiao/beishu.cpp)
 add_executable(test acwing/test.cpp)
 add_executable(segment lanqiao/segment.cpp)
 add_executable(prime lanqiao/prime.cpp)
-add_executable(test1 test.cpp)
-add_executable(aaa aaa.cpp)
 add_executable(findme acwing/findme.cpp)
 
 
 add_executable(cover acwing/cover.cpp)
 add_executable(layervisit acwing/layervisit.cpp)
-add_executable(aa 8queen/aa.cpp)
